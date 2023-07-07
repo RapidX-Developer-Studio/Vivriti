@@ -1,17 +1,22 @@
 import React from "react";
 import Header from "./Header";
 import SubHeader from "./SubHeader";
-import Card from "./Cards";
+import ProductCards from "./Cards";
+import Footer from "./Footer";
+import { Container } from "@mui/material";
 
 function App() {
   return (
-    <div>
+    <Container>
       <Header />
       <div style={{ paddingTop: "20px" }}>
         <SubHeader />
       </div>
-      <Card />
-    </div>
+      <ProductCards />
+      <div style={{ paddingTop: "30px" }}>
+        <Footer />
+      </div>
+    </Container>
   );
 }
 
