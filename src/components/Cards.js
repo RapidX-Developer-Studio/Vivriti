@@ -14,7 +14,7 @@ import Rating from "@mui/material/Rating";
 const ProductCards = () => {
   const [products, setProducts] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const [productsPerPage] = useState(10); // 10 cards per page
+  const [productsPerPage] = useState(8); // 10 cards per page
   const [selectedCategory, setSelectedCategory] = useState("all"); // Default category
 
   // Fetching data
@@ -95,7 +95,7 @@ const ProductCards = () => {
       <Card
         key={product.id}
         style={{
-          flex: "1 1 16%",
+          flex: "1 1 22%",
           margin: "10px",
           height: "100%",
           position: "relative"

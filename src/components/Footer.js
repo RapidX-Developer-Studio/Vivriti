@@ -48,7 +48,7 @@ const Footer = () => {
         </ul>
       </div>
       <div className="footer-bottom">
-        <div className="footer-section">
+        <div style={{ flexDirection: "column", textAlign: "left" }}>
           <p>@2010 - 2022 All Rights reserved</p>
           <div className="footer-links">
             <a href="#">Privacy Center</a>
@@ -64,14 +64,19 @@ const Footer = () => {
                 placeholder="Your Email"
                 variant="outlined"
                 size="small"
-                className="email-input"
+                style={{ marginRight: '10px' }}
               />
-              <Button variant="contained" color="primary" className="subscribe-button">
+              <Button
+                variant="contained"
+                color="primary"
+                className="subscribe-button"
+              >
                 Subscribe
               </Button>
             </div>
             <h5>
-              By clicking on subscribe, you are agreeing to the privacy and cookies policy
+              By clicking on subscribe, you are agreeing to the privacy and
+              cookies policy
             </h5>
           </div>
         </div>
