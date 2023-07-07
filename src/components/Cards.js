@@ -171,9 +171,8 @@ const ProductCards = () => {
       <div
         style={{
           width: "20%",
-          margin: "0 auto",
           marginBottom: "30px",
-          marginTop: "10px"
+          marginTop: "15px",
         }}
       >
         <div style={{ marginBottom: "10px" }}>

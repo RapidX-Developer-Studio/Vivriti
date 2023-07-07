@@ -1,6 +1,7 @@
 import React from "react";
 import { WhatsApp, Facebook, Instagram, Twitter } from "@mui/icons-material";
 import { TextField, Button } from "@mui/material";
+import "../../src/App.css";
 
 const Footer = () => {
   return (

@@ -127,3 +127,13 @@ footer {
   font-size: 12px;
   color: #888888;
 }
+
+.subheader {
+  background: rgb(45, 45, 45);
+  background: linear-gradient(
+    90deg,
+    rgba(45, 45, 45, 1) 0%,
+    rgba(226, 97, 91, 1) 100%
+  );
+  color: white;
+}
